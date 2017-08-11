@@ -1,0 +1,669 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>苏州康卓欣自动化</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+    <!-- Bootstrap -->
+
+
+    <script src="http://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Slider
+    ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <style type="text/css">
+        .carousel-control {
+            padding-top: 10%;
+            width: 5%;
+        }
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Navigation
+    ==========================================-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+                <span class="sr-only">Toggle navigation</span> 
+                <span class="icon-bar"></span> 
+                <span class="icon-bar"></span> 
+                <span class="icon-bar"></span> 
+              </button>
+
+
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="container">
+
+                    <a class="navbar-brand page-scroll navbar-left" href="#page-top">康卓欣自动化</a>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about" class="page-scroll">关于我们</a></li>
+                        <li><a href="#services" class="page-scroll">设备人员</a></li>
+                        <li><a href="#portfolio" class="page-scroll">产品展示</a></li>
+                        <li><a href="#testimonials" class="page-scroll">品牌代理</a></li>
+                        <li><a href="#contact" class="page-scroll">重要客户</a></li>
+                        <li><a href="#cultural" class="page-scroll">企业文化</a></li>
+                        <li><a href="#lianxi" class="page-scroll">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Header -->
+    <!-- <header id="header">
+        <div class="intro">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 intro-text">
+                            <h1>康卓欣自动化</h1>
+                            <p>公司以自动化工程设计、开发为依托，代理销售多种国外知名品牌的工控产品。</p>
+                            <a href="#about" class="btn btn-primary btn-lg page-scroll">了解更多</a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <!--header  -->
+    <br><br>
+    <div class="row" style="padding-top:30px;">
+        <div class="col-lg-12 col-sm-12 col-xs-12">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="./img/lunbo/01.jpg" alt="..." style="width:100%;height: 430px;">
+                        <!-- <div class="carousel-caption">
+        ...
+      </div> -->
+                    </div>
+                    <div class="item">
+                        <img src="./img/lunbo/02.jpg" alt="..." style="width:100%;height: 430px;">
+                        <!--  <div class="carousel-caption">
+       ...
+     </div> -->
+                    </div>
+                    <div class="item">
+                        <img src="./img/lunbo/03.jpg" alt="..." style="width:100%;height: 430px;">
+                        <!-- <div class="carousel-caption">
+        ...
+      </div> -->
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-3 col-lg-6">
+                    <div class="about-text">
+                        <h2>欢迎来到 <span>康卓欣自动化</span></h2>
+                        <hr>
+                        <p>苏州康卓欣自动化设备有限公司是一家集技、工、贸为一体的,专业从事欧、美、日、韩等进口自动化工控产品的销售、维修，系统集成，自动化系统开发、设计、改造改善，技术服务的高新科技型企业，我公司拥有专业的技术队伍，针对多种行业自动化的工艺控制需求，提供可靠、高效的技术服务和自动化整体解决方案。</p>
+                        <p>为客户在产品性能检测、自动化生产线、印染机械、空调设备、玻璃机械、电子设备、喷涂、印刷纸箱设备、电线电缆、节能设备改造、等方面开发、设计、改造了众多自动化设备及先进的自动化控制系统，并为其提供周到的技术支持和售前、售中、售后一条龙服务。</p>
+                        <p>为客户在产品性能检测、自动化生产线、印染机械、空调设备、玻璃机械、电子设备、喷涂、印刷纸箱设备、电线电缆、节能设备改造、等方面开发、设计、改造了众多自动化设备及先进的自动化控制系统，并为其提供周到的技术支持和售前、售中、售后一条龙服务。</p>
+                        <a href="#services" class="btn btn-warning btn-lg page-scroll">品 牌 代 理</a> </div>
+                </div>
+                <div class="col-xs-12 col-md-3 col-lg-3">
+                    <div class="about-media"> <img src="./img/about-1.jpg" alt=" " style="padding-top: 110px;"> </div>
+                    <div class="about-desc">
+                        <h3>公司外貌</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis.</p> -->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3 col-lg-3">
+                    <div class="about-media"> <img src="img/about-2.jpg" alt=" " style="padding-top: 110px;"> </div>
+                    <div class="about-desc">
+                        <h3>组织架构</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante.</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <div class="col-md-10 col-md-offset-1 section-title text-center">
+                <h2>设 备 人 员</h2>
+                <hr>
+                <p>质量创新 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 落实管理 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 专业服务 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 客户至上</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="service-media"> <img src="img/services/sb1.jpg" alt=" "> </div>
+                    <div class="service-desc">
+                        <h3>设备一</h3>
+                        <!--  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p> -->
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="service-media"> <img src="img/services/sb2.jpg" alt=" "> </div>
+                    <div class="service-desc">
+                        <h3>设备二</h3>
+                        <!--  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p> -->
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="service-media"> <img src="img/services/sb3.jpg" alt=" "> </div>
+                    <div class="service-desc">
+                        <h3>设备三</h3>
+                        <!--  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p> -->
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="service-media"> <img src="img/services/sb4.jpg" alt=" "> </div>
+                    <div class="service-desc">
+                        <h3>设备四</h3>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p> -->
+                    </div>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <div class="service-media"> <img src="img/services/sb5.jpg" alt=" "> </div>
+                    <div class="service-desc">
+                        <h3>设备五</h3>
+                        <!--  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p> -->
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="service-media"> <img src="img/services/sb6.jpg" alt=" "> </div>
+                    <div class="service-desc">
+                        <h3>设备六</h3>
+                        <!--  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p> -->
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="service-media"> <img src="img/services/sb7.jpg" alt=" "> </div>
+                    <div class="service-desc">
+                        <h3>设备七</h3>
+                        <!--   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p> -->
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="service-media"> <img src="img/services/sb8.jpg" alt=" "> </div>
+                    <div class="service-desc">
+                        <h3>设备八</h3>
+                        <!--  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p> -->
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="col-md-6 text-center">
+                    <img src="img/services/sbsb1.jpg" alt=" ">
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/services/sbsb2.jpg" alt=" ">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Section -->
+    <div id="portfolio">
+        <div class="container">
+            <div class="section-title text-center center">
+                <h2>产 品 展 示</h2>
+                <hr>
+
+            </div>
+            <div class="categories">
+                <!--   <ul class="cat">
+      <li>
+        <ol class="type">
+          <li><a href="#" data-filter="*" class="active">All</a></li>
+          <li><a href="#" data-filter=".lawn">Lawn Care</a></li>
+          <li><a href="#" data-filter=".garden">Garden Care</a></li>
+          <li><a href="#" data-filter=".planting">Planting</a></li>
+        </ol>
+      </li>
+    </ul> -->
+                <div class="clearfix"></div>
+            </div>
+            <div class="row">
+                <div class="portfolio-items">
+                    <div class="col-sm-6 col-md-4 lawn">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <!-- <a href="#" title="Project Title" data-lightbox-gallery="gallery1"> -->
+                                <div class="hover-text">
+                                    <!-- <h4>Lorem Ipsum</h4> -->
+                                </div>
+                                <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 planting">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <!-- <a href="img/portfolio/02-large.jpg" title="Project Title" data-lightbox-gallery="gallery1"> -->
+                                <div class="hover-text">
+                                    <!--   <h4>Adipiscing Elit</h4> -->
+                                </div>
+                                <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 lawn">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <!-- <a href="img/portfolio/03-large.jpg" title="Project Title" data-lightbox-gallery="gallery1"> -->
+                                <div class="hover-text">
+                                    <!-- <h4>Lorem Ipsum</h4> -->
+                                </div>
+                                <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 lawn">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <!--  <a href="img/portfolio/04-large.jpg" title="Project Title" data-lightbox-gallery="gallery1"> -->
+                                <div class="hover-text">
+                                    <!--  <h4>Lorem Ipsum</h4> -->
+                                </div>
+                                <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 planting">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <!-- <a href="img/portfolio/05-large.jpg" title="Project Title" data-lightbox-gallery="gallery1"> -->
+                                <div class="hover-text">
+                                    <!--   <h4>Adipiscing Elit</h4> -->
+                                </div>
+                                <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 garden">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <!-- <a href="img/portfolio/06-large.jpg" title="Project Title" data-lightbox-gallery="gallery1"> -->
+                                <div class="hover-text">
+                                    <!--  <h4>Dolor Sit</h4> -->
+                                </div>
+                                <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 garden">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <!-- <a href="img/portfolio/07-large.jpg" title="Project Title" data-lightbox-gallery="gallery1"> -->
+                                <div class="hover-text">
+                                    <!--   <h4>Dolor Sit</h4> -->
+                                </div>
+                                <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 lawn">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <!-- <a href="img/portfolio/08-large.jpg" title="Project Title" data-lightbox-gallery="gallery1"> -->
+                                <div class="hover-text">
+                                    <!--  <h4>Lorem Ipsum</h4> -->
+                                </div>
+                                <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 planting">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <!-- <a href="img/portfolio/09-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">  -->
+                                <div class="hover-text">
+                                    <!--    <h4>Adipiscing Elit</h4> -->
+                                </div>
+                                <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonials Section -->
+    <div id="testimonials">
+        <div class="overlay">
+            <div class="container">
+                <div class="section-title">
+                    <h2 class="text-center">品 牌 代 理</h2>
+                    <hr class="text-center">
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <img src="./img/pp.jpg">
+
+
+                        <p style="padding-top: 30px;font-size: 17pt;color: white;text-indent:2em">公司致力服务于化工、汽车、电力、电子、橡胶、印刷等行业的自动化控制系统及电气控制设备的研究、设计、开发、实验。在工业自动化系统工程项目的设计及安装调试方面具有丰富的经验，尤其在以下方面具有突出的技术优势和承接工程项目的能力：</p>
+
+                        <ul style="padding-top: 30px;font-size: 17pt;color:white;padding-left: 28%">
+                            <li>♦ PLC控制系统的设计、安装、调试；</li>
+                            <li>♦变频器控制系统的设计、安装、调试；</li>
+                            <li>♦门禁、监控系统的设计、安装、调试；</li>
+                            <li>♦高低压配电系统的设计、安装、调试；</li>
+                            <li>♦各种电气设备的维护、调试；</li>
+                        </ul>
+                        <p style="padding-top: 30px;font-size: 19pt;color: white;text-indent:2em">公司秉承“以最好的技术和服务换取客户最大的满意 ”的宗旨，愿以最优秀的产品和最完善的服务满足使用者要求。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div id="contact" class="text-center">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>重 要 客 户</h2>
+                <hr>
+                <p>与我们合作的都是国内外知名企业。</p>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-xs-12">
+                    <table class="table table-condensed table-bordered table-hover" style="text-align: left; font-size: 16pt;text-indent: 4em;">
+                        <tbody>
+                            <tr class="danger">
+
+                                <td>铜陵三佳山田科技有限公司</td>
+                                <td>张家港易发</td>
+                                <td>阿特拉斯</td>
+                            </tr>
+                            <tr class="warning">
+
+                                <td>苏州埃科逊</td>
+                                <td>无锡隆玛科技股份有限公司</td>
+                                <td>上海维尔泰克</td>
+                            </tr>
+                            <tr class="infor">
+
+                                <td>上海懋园机电设备</td>
+                                <td>宁波江北来仪</td>
+                                <td>苏州日传机械</td>
+                            </tr>
+                            <tr class="success">
+
+                                <td>扬州永丰余</td>
+                                <td>希门凯电子(无锡)有限公司</td>
+                                <td>浙江省诸暨市中太造纸</td>
+                            </tr>
+                            <tr class="active">
+
+                                <td>上海科锐</td>
+                                <td>苏州苏试试验</td>
+                                <td>上海德蓝环保</td>
+                            </tr>
+                            <tr class="danger">
+
+                                <td>宁波川仪成套设备</td>
+                                <td>南京双喜电子</td>
+                                <td>昌三机电科技（苏州）有限公司</td>
+                            </tr>
+                            <tr class="warning">
+
+                                <td>芜湖凯博尔高科技实业</td>
+                                <td>南昌奥尔科技有限公司</td>
+                                <td>厦门微亚自动化科技</td>
+                            </tr>
+                            <tr class="infor">
+
+                                <td>上海辰心仪表有限公司</td>
+                                <td>上海启元空分技术</td>
+                                <td>上海朗力自动化科技有限公司</td>
+                            </tr>
+                            <tr class="success">
+
+                                <td>宜兴瑞茂仪器仪表</td>
+                                <td>爱思开化工</td>
+                                <td>江阴市润科机电科技</td>
+                            </tr>
+                            <tr class="active">
+
+                                <td>上海科锐</td>
+                                <td>苏州苏试试验</td>
+                                <td>上海德蓝环保</td>
+                            </tr>
+                            <tr class="danger">
+
+                                <td>重庆九环机电有限公司</td>
+                                <td>上海红岑自动化</td>
+                                <td>广州斯革鲁机电有限公司</td>
+                            </tr>
+                            <tr class="warning">
+                                <td>绚贸(上海)工业设备有限公司</td>
+                                <td>苏州热工研究院</td>
+                                <td>上海英达自控</td>
+                            </tr>
+                            <tr class="infor">
+                                <td>连云港杰创科学仪器</td>
+                                <td>深圳龙岗区横岗精立田五金</td>
+                                <td>河南豪创仪表成套设备</td>
+                            </tr>
+                            <tr class="success">
+                                <td>上海诣科自控</td>
+                                <td>江阴市润科机电科技</td>
+                                <td>昆山恩斯克有限公司</td>
+                            </tr>
+                            <tr class="active">
+                                <td>苏州日传机械</td>
+                                <td>南昌奥尔科技有限公司</td>
+                                <td>深圳市驰远自动化科技</td>
+                            </tr>
+                            <tr class="danger">
+                                <td>常州市艾和电器</td>
+                                <td>江苏圣若亚</td>
+                                <td>上海怡帆测控</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- cultural -->
+    <div id="cultural">
+        <div class="container">
+            <div class="section-title">
+                <br>
+                <br>
+                <h2 class="text-center">企 业 文 化</h2>
+                <hr class="text-center">
+                <p class="text-center">团结 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 诚信 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 负责 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 高效</p>
+                <p class="text-center" style="font-weight: bold;font-size: 20pt">自我提升 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 良性竞争 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 相互欣赏 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 相互支持</p>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="col-md-12">
+
+
+                <div class="well">
+                    <div id="myCarousel" class="carousel slide">
+
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <a href="#x"><img src="./img/huodong1.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a href="#x"><img src="./img/huodong2.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a href="#x"><img src="./img/huodong3.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <!--      <div class="col-sm-3"><a href="#x"><img src="http://placehold.it/500x500" alt="Image" class="img-responsive"></a>
+                            </div> -->
+                                </div>
+                                <!--/row-->
+                            </div>
+                            <!--/item-->
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <a href="#x" class="thumbnail"><img src="./img/huodong4.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a href="#x" class="thumbnail"><img src="./img/huodong5.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a href="#x" class="thumbnail"><img src="./img/huodong6.jpg" alt="Image" class="img-responsive"></a>
+                                    </div>
+
+                                </div>
+                                <!--/row-->
+                            </div>
+
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/item-->
+                </div>
+                <!--/carousel-inner-->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <‹</a>
+
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">›></a>
+            </div>
+            <!--/myCarousel-->
+        </div>
+        <!--/well-->
+        <br>
+        <br>
+    </div>
+
+    </div>
+
+    </div>
+
+    <!-- lianxi -->
+    <div id="lianxi">
+        <div class="container">
+            <div class="section-title">
+                <br>
+                <br>
+                <h2 class="text-center">联 系 我 们</h2>
+                <hr class="text-center">
+                <p class="text-center">质量创新 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 落实管理 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 专业服务 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 客户至上</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-6" style="padding-left: 10%">
+                    <h3 style="font-size: 18pt">苏州康卓欣自动化设备有限公司</h3>
+                    <p style="font-size: 12pt">电话：0512-50373689</p>
+                    <p style="font-size: 12pt">传真：0512-50102089</p>
+                    <p style="font-size: 12pt">邮箱：konwell@konwell.cn</p>
+                    <p style="font-size: 12pt">网址：www.szkonwell.cn</p>
+                    <p style="font-size: 12pt">地址：昆山市经济技术开发区琵琶路八号</p>
+                    <p style="font-size: 12pt">(章基路和琵琶路路口向西200米)</p>
+                    <br>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-6">
+                    <img src="./img/lianxi.jpg">
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <div id="footer">
+        <div class="container text-center">
+            <div class="col-md-8 col-md-offset-2">
+                <!-- <div class="social">
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+      </div> -->
+                <p>&copy; 2017 <a href="http://www.hannota.com" rel="nofollow">汉诺塔信息科技有限公司</a></p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/nivo-lightbox.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#carousel-example-generic').carousel({
+                interval: 1500
+            })
+        });
+    </script>
+</body>
+
+</html>
